@@ -4,6 +4,9 @@ import App from './App.vue'
 import router from './router'
 import './index.css'
 import axios from 'axios'
+import '@fortawesome/fontawesome-free/css/all.css';
+import 'animate.css'
+
 const app = createApp(App);
 axios.defaults.baseURL = 'http://localhost:8080/api';
 

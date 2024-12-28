@@ -4,8 +4,8 @@
             <div class="signin-signup">
                 <form action="#" class="sign-in-form" @submit.prevent="handleLogin">
                     <h2 class="title">登录</h2>
-                    <div class="input-field">
-                        <i class="fas fa-user"></i>
+                    <div class="input-field" >
+                        <i class="fas fa-user" ></i>
                         <input type="text" placeholder="用户名" v-model="account" required />
                     </div>
                     <div class="input-field">

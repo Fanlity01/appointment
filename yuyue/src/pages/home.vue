@@ -16,6 +16,8 @@ import Navbar from '../components/Navbar.vue'
 import Sidebar from '../components/Sidebar.vue'
 import TeacherSchedule from '../components/TeacherSchedule.vue';
 import courses from '../components/courses.vue';
+
+
 </script>
 <style scoped>
 #app {
@@ -59,8 +61,10 @@ import courses from '../components/courses.vue';
 .navbar {
     background: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 5px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: -30px;
+    
 }
 
 .sidebar {
@@ -68,6 +72,7 @@ import courses from '../components/courses.vue';
     width: 250px;
     min-height: 100vh;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    margin-left: -10px;
 }
 
 .router-view {

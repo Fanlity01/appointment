@@ -6,11 +6,11 @@
                 <form action="#" class="sign-in-form" @submit.prevent="handleLogin">
                     <h2 class="title">东北林业大学实验室预约管理系统</h2>
                     <div class="input-field">
-                        <i class="fas fa-user"></i>
+                        <i class="fa fa-user"></i>
                         <input type="text" placeholder="用户名" v-model="account" required @focus="errorMessage = ''" />
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-lock"></i>
+                        <i class="fa fa-lock"></i>
                         <input type="password" placeholder="密码" v-model="password" required
                             @focus="errorMessage = ''" />
                     </div>
@@ -148,6 +148,7 @@ const handleLogin = async () => {
 
 </script>
 <style scoped>
+
 /* Add your styles here */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
